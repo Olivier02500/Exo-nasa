@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-image: url("etoile.png");
+    width: 100%;
+}
+
+#logo_nasa {
+    width: 200px;
+    height: auto;
+}
+
+.frist_table {
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    z-index: 1;
+    width: 70%;
+}
+
+#frist_table th {
+    font-size: 1.8rem;
+    padding: 3% 1%;
+    color: white;
+    text-align: center;
+    border: 1px lightgrey;
+    border-style: none solid none none;
+}
+
+th:hover {
+    background: blue;
+}
+
+#frist_table #last_th {
+    border-style: none ;
+}
+
+#search {
+    display: inline-block;
+    position: absolute;
+    left: 81%;
+    top: 30%;
+    background: dimgrey;
+    height: 30%;
+}
+
+::placeholder {
+    color: white;
+    text-indent: 10px;
+}
+
+/* second mune */
+.second_table {
+    position: relative;
+    left: 10%;
+    top: 100%;
+    z-index: 1;
+    width: 80%;
+
+}
+
+#second_table th {
+    font-size: 1.2rem;
+    padding: 1% 1%;
+    color: white;
+    background: dimgrey;
+    text-align: center;
+    border: 1px lightgrey;
+    border-style: none solid none none;
+    border-collapse: collapse;
+}
+
+#frist_table #last_th2 {
+    border-style: none ;
+}
+
+#second_table th:hover {
+    background: lightgrey;
+}
+
+/*section*/
+
+section {
+    padding-top: 150px;
+}
+
+#1 {
+    display: inline-block;
+    width: 44%;
+    background: aquamarine;
+}
+
+#2 {
+    display: inline-block;
+    width: 23%;
+    margin: 5%;
+    background: aquamarine;
+}
+
+/*footer*/
+
+footer {
+    background: black;
+}
+
+footer div {
+    background: blue;
+    text-align: center;
+    padding: 3px 0;
+    color: white;
+}
