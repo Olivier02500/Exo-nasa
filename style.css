@@ -92,19 +92,129 @@ th:hover {
 
 section {
     padding-top: 143px;
+    background: black;
 }
 
-#1 {
+.container {
+    width: 100%;
     display: inline-block;
-    width: 44%;
-    background: aquamarine;
 }
 
-#2 {
+.container_2 {
+    width: 45%;
     display: inline-block;
-    width: 23%;
-    margin: 5%;
-    background: aquamarine;
+    margin: 2%;
+    height: 485px;
+}
+
+#second {
+    float: right;
+}
+
+.div0 {
+    display: inline-block;
+    width: 100%;
+}
+
+.div0 > div {
+    display: inline-block;
+    width: 49%;
+    height: 240px;
+}
+
+.third {
+    height: 240px;
+    display: inline-block;
+    width: 99%;
+    background-image: url("trappist1f.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat ;
+}
+
+
+#iss {
+    background-image: url("iss063e055171.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat ;
+}
+
+#equipage {
+    background-image: url("51404585793_8803f6e1aa_k.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#blue {
+    background: blue;
+}
+
+div footer {
+    vertical-align: bottom;
+    height: 30px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/*section numero 2*/
+
+.box {
+    width: 100%;
+}
+
+.box div {
+    display: inline-block;
+    width: 22%;
+    height: 200px;
+    margin: 1%;
+}
+
+#large {
+    width: 45%;
+    background-image: url("sarah_yearicks.png");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#box_ div {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+}
+
+#ozone {
+    background-image: url("ozone2021_2.png");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#wallpaper {
+    background-image: url("wallpaper_gamma_rays.jpeg");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#webb {
+    background-image: url("steam_day_web_release.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#user {
+    background-image: url("users_advisory_group.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#sdo {
+    background-image: url("sdo_x1_flare_10-28-21_131.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat
+}
+
+#pia {
+    background-image: url("1-pia24818_-_jupiter_bands_leigh_slide1.png");
+    background-size: cover  ;
+    background-repeat: no-repeat
 }
 
 /*footer*/
@@ -116,6 +226,26 @@ footer {
 footer div {
     background: blue;
     text-align: center;
-    padding: 3px 0;
+    padding: 4px 0;
     color: white;
 }
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.end {
+    text-align: left;
+    color: white;
+    background: black;
+}
+
+.end p {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+}
+
+
+
